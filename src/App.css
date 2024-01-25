@@ -1,0 +1,18 @@
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.star {
+  font-size: 80px;
+  cursor: pointer;
+}
+
+.star:hover,
+.star:has(~ .star:hover) {
+  color: gold;
+}
+.star.active {
+  color: gold;
+}
